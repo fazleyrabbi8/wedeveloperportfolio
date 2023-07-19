@@ -13,7 +13,7 @@ body {
     color: white;
     font-size: 20px;
     font-weight: 700;
-    padding: 18px 35px ;
+    padding: 18px 35px;
 
 }
 
@@ -21,7 +21,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 200px ;
+    margin: 0 200px;
 }
 
 .nav-title {
@@ -44,18 +44,43 @@ nav a {
     text-decoration: none;
     color: #474747;
 }
-.header{
+
+.header {
     background: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right 0;
 
 }
-.banner{
-    padding: 30px 
-    30px 30px 150px;
+
+.banner {
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-.banner .profilepic{
+
+.banner .profilepic {
     width: 584px;
+}
+.bannercontent{
+    max-width: 585px;
+}
 
+.bannergreeting {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
 
+.bannertitle {
+    font-size: 85px;
+    font-weight: 700;
+   color: #181818; 
+   margin-top: 5px;
+   margin-bottom: 20px;
+
+}
+.bannerdescription{
+    margin-bottom: 30px;
 }
