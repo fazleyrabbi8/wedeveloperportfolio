@@ -47,9 +47,9 @@ nav a {
 
 .header {
     background: #FFF8F3;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right 0;
+    background-position: bottom right , top left;
 
 }
 
@@ -190,15 +190,47 @@ main section {
     font-weight: 700;
     margin-bottom: 10px;
 }
-.resume-item-institute{
-   margin-bottom: 20px;
-   margin-top: 0px;
+
+.resume-item-institute {
+    margin-bottom: 20px;
+    margin-top: 0px;
 }
 
-.resume-item-institute , .resume-item-description{
+.resume-item-institute,
+.resume-item-description {
     color: #757575;
 }
-.downloadcv{
-   text-align: center;
-   margin-top: 50px;
+
+.downloadcv {
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer {
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 230px;
+    margin-top: 150px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.contact input[type="text"],
+[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 100%;
+
+}
+.social-links a{margin-right: 25px;
+
 }
